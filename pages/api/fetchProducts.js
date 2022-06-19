@@ -2,9 +2,12 @@ import products from "./products.json"
 
 export default function handler(req, res) {
 // If get request
-if (req.method === "GET") {
+    console.log(products);
+    if (req.method === "GET") {
 // Create a copy of products without the hashes and filenames
-const productsNoHashes = products.map((product) => {
+    console.log(req.query);
+
+const productsNoHashes = products.filter(product=> product.currency === req.query.currency).map((product) => {
 
 const { hash, filename, ...rest } = product;
 return rest;
