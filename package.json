@@ -16,7 +16,7 @@
   "scripts": {
     "clean": "shx rm -rf .next",
     "dev": "next dev",
-    "build": "yarn clean && next build",
+    "build1": "yarn clean && next build",
     "start": "next start",
     "lint": "next lint"
   },
