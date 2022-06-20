@@ -1,6 +1,7 @@
 import React, {useState} from "react";
 import styles from "../styles/Product.module.css";
-import Buy from "./Buy";
+import Buy from "./buy";
+
 
 export default function Product({ product, coin }) {
     const { id, name, price, description, image_url } = product;
