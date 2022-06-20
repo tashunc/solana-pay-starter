@@ -1,22 +1,61 @@
 [
   {
     "id": 1,
-    "name": "OG Emoji pack",
-    "price": "0.32",
-    "description": "Get this fire emoji pack for only $0.09! Includes 3 hot emojis: Forreal, Flooshed, and Sheesh!",
-    "image_url": "https://i.imgur.com/rVD8bjt.png",
-    "filename": "Emojis.zip",
-    "hash": "QmWWH69mTL66r3H8P4wUn24t1L5pvdTJGUTKBqT11KCHS5",
+    "name": "Assassin's Creed Origins",
+    "price": "0.38",
+    "image_url": "https://assets1.ignimgs.com/2017/06/12/assassins-creed-origins---button-1-1497303776274.jpg",
+    "description": "Assassin's Creed Origins Game Download",
+    "filename": "Assassin's Creed Origins.zip",
+    "hash": "QmW3a6Qjy7zFwEqaUAzaWE8bHv9j2BFehcdWFc8RGLkMdw",
     "currency": "USDC"
   },
   {
     "id": 2,
-    "name": "OG Emoji pack",
-    "price": "0.01",
-    "description": "Get this fire emoji pack for only $0.09! Includes 3 hot emojis: Forreal, Flooshed, and Sheesh!",
-    "image_url": "https://i.imgur.com/rVD8bjt.png",
-    "filename": "Emojis.zip",
-    "hash": "QmWWH69mTL66r3H8P4wUn24t1L5pvdTJGUTKBqT11KCHS5",
+    "name": "Assassin's Creed Origins",
+    "price": "0.018",
+    "image_url": "https://assets1.ignimgs.com/2017/06/12/assassins-creed-origins---button-1-1497303776274.jpg",
+    "description": "Assassin's Creed Origins Game Download",
+    "filename": "Assassin's Creed Origins.zip",
+    "hash": "QmW3a6Qjy7zFwEqaUAzaWE8bHv9j2BFehcdWFc8RGLkMdw",
     "currency": "Solana"
+  },
+  {
+    "id": 3,
+    "name": "Assassin's Creed Odyssey",
+    "price": "0.6",
+    "image_url": "https://img.g2a.com/1080x1080/1x1x0/assassins-creed-odyssey-uplay-key-europe/5b3630baae653a57df0c36e6",
+    "description": "Assassin's Creed Odyssey Game Download",
+    "filename": "Assassin's Creed Odyssey.zip",
+    "hash": "QmYuJJ6HhNPzqas1S686eWSifdYXENzzkRDwBQwHQH6q9n"
+  },
+  {
+    "id": 4,
+    "name": "Assassin's Creed Odyssey",
+    "price": "0.02",
+    "image_url": "https://img.g2a.com/1080x1080/1x1x0/assassins-creed-odyssey-uplay-key-europe/5b3630baae653a57df0c36e6",
+    "description": "Assassin's Creed Odyssey Game Download",
+    "filename": "Assassin's Creed Odyssey.zip",
+    "hash": "QmYuJJ6HhNPzqas1S686eWSifdYXENzzkRDwBQwHQH6q9n",
+    "currency": "Solana"
+  },
+  {
+    "id": 5,
+    "name": "Assassin's Creed Syndicate",
+    "price": "0.6",
+    "image_url": "https://cdn2.unrealengine.com/Diesel%2Fproductv2%2Fassassins-creed-syndicate%2Fhome%2FACS-STD-2560x1440-635b7b6c86f18730071426375e7c4fe0bd831ddd.jpg",
+    "description": "Assassin's Creed Syndicate Game Download",
+    "filename": "Assassin's Creed Syndicate.zip",
+    "hash": "QmTi3LZKRmW7mgXL7rxuY3h6aFP4wn7f2aBLoDGLKF5SAH",
+    "currency": "Solana"
+  },
+  {
+    "id": 6,
+    "name": "Assassin's Creed Syndicate",
+    "price": "0.12",
+    "image_url": "https://cdn2.unrealengine.com/Diesel%2Fproductv2%2Fassassins-creed-syndicate%2Fhome%2FACS-STD-2560x1440-635b7b6c86f18730071426375e7c4fe0bd831ddd.jpg",
+    "description": "Assassin's Creed Syndicate Game Download",
+    "filename": "Assassin's Creed Syndicate.zip",
+    "hash": "QmTi3LZKRmW7mgXL7rxuY3h6aFP4wn7f2aBLoDGLKF5SAH",
+    "currency": "USDC"
   }
 ]

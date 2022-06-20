@@ -50,5 +50,10 @@
 }
 
 .product_price{
+  align-items: center;
   font-size: 1.3em;
+}
+.product_price_curr{
+  font-size: 1.3em;
+  display: block;
 }

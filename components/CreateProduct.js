@@ -4,7 +4,7 @@ import styles from "../styles/CreateProduct.module.css";
 
 const client = create("https://ipfs.infura.io:5001/api/v0");
 
-const CreateProduct = () => {
+const CreateProduct = (currency) => {
 
     const [newProduct, setNewProduct] = useState({
         name: "",
@@ -96,6 +96,16 @@ const CreateProduct = () => {
                                 placeholder="Image URL ex: https://i.imgur.com/rVD8bjt.png"
                                 onChange={(e) => {
                                     setNewProduct({ ...newProduct, image_url: e.target.value });
+                                }}
+                            />
+                        </div>
+                        <div className={styles.flex_row}>
+                            <input
+                                className={styles.input}
+                                type="Currency"
+                                placeholder="Solana"
+                                onChange={(e) => {
+                                    setNewProduct({ ...newProduct, currency: e.target.value });
                                 }}
                             />
                         </div>

@@ -3,6 +3,7 @@ import {PublicKey} from '@solana/web3.js';
 import {useWallet} from '@solana/wallet-adapter-react';
 import {WalletMultiButton} from '@solana/wallet-adapter-react-ui';
 import Product from "../components/Product";
+import CreateProduct from "../components/CreateProduct";
 
 // Constants
 const TWITTER_HANDLE = '_buildspace';
@@ -12,6 +13,8 @@ const App = () => {
     const {publicKey} = useWallet();
     const [products, setProducts] = useState([]);
     const [currency, setCurrency] = useState(null);
+    const isOwner = ( publicKey ? publicKey.toString() === process.env.NEXT_PUBLIC_OWNER_PUBLIC_KEY : false );
+    const [creating, setCreating] = useState(false);
 
     useEffect(() => {
         if (publicKey && currency) {
@@ -55,12 +58,18 @@ const App = () => {
                 </div>
                 <div className="container">
                     <header className="header-container">
-                        <p className="header"> 😳 Buildspace Emoji Store 😈</p>
-                        <p className="sub-text">The only emoji store that accepts shitcoins</p>
+                        <p className="header"> 😳 Buildspace Game Store 😈</p>
+                        <p className="sub-text">Gamestore accepts Devnet coins</p>
+                        {isOwner && (
+                            <button className="create-product-button" onClick={() => setCreating(!creating)}>
+                                {creating ? "Close" : "Create Product"}
+                            </button>
+                        )}
                     </header>
 
                     <main>
-                        {publicKey && currency ? renderItemBuyContainer() : renderNotConnectedContainer()}
+                        {creating && <CreateProduct currency={currency} />}
+                        { publicKey && currency ? renderItemBuyContainer() : renderNotConnectedContainer()}
                     </main>
 
                     <div className="footer-container">
