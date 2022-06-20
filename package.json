@@ -20,8 +20,7 @@
     "build1": "yarn clean && next build",
     "build": "next build",
     "start": "next start -p $PORT",
-    "start1": "next start",
-    "lint": "next lint"
+    "start1": "next start"
   },
   "dependencies": {
     "@solana/pay": "^0.2.0",
